@@ -33,3 +33,12 @@
 .animate-fadeIn {
   animation: fadeIn 0.25s ease-in-out;
 }
+
+/* ✅ Keep layout consistent when scrollbar appears/disappears */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  scrollbar-gutter: stable;
+}

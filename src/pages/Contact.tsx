@@ -24,10 +24,10 @@ function Contact() {
 
   return (
     <section className="items-center justify-center px-6">
-      <div className="w-full max-w-2xl rounded-2xl bg-secondaryBg p-8 shadow-md">
-        <h1 className="font-playfair text-headingTextColor mb-6 text-center text-3xl font-bold">
-          Contact Me
-        </h1>
+      <h1 className="text-headingTextColor mb-10 text-center text-3xl font-semibold md:text-5xl">
+        Contact Me
+      </h1>
+      <div className="bg-secondaryBg w-full max-w-2xl rounded-2xl p-8 shadow-md">
         <form
           onSubmit={handleSubmit}
           className="text-bodyTextColor font-poppins space-y-4"

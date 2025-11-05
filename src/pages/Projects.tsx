@@ -43,7 +43,7 @@ function Projects() {
       <div className="flex w-full max-w-6xl flex-col items-center justify-center space-y-12">
         {/* Header */}
         <div className="space-y-3 text-center">
-          <h1 className="text-headingTextColor text-3xl font-semibold md:text-4xl">
+          <h1 className="text-headingTextColor text-3xl font-semibold md:text-5xl">
             Projects
           </h1>
           <p className="text-bodyTextColor mx-auto max-w-md">

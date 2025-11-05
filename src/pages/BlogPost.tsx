@@ -22,7 +22,7 @@ function BlogPost() {
   }
 
   return (
-    <section className="bg-primaryBg mt-20 flex justify-center px-6 py-10">
+    <section className="bg-primaryBg flex justify-center px-6">
       <div className="flex w-full max-w-3xl flex-col items-center space-y-10">
         {/* Large Image */}
         <img
