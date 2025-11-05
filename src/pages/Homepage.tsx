@@ -31,7 +31,7 @@ function Homepage() {
       <div className="mt-24 flex justify-center pb-24">
         <NavLink
           to="/contact"
-          className="bg-specialTextColor hover:bg-specialTextColor/80 text-center text-primaryBg inline-block rounded-full px-12 py-4 text-4xl font-semibold transition"
+          className="bg-specialTextColor hover:bg-specialTextColor/80 text-center text-primaryBg inline-block rounded-full px-10 sm:px-12 py-4 text-2xl sm:text-4xl font-semibold transition"
         >
           Get in Touch
         </NavLink>
