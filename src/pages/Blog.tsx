@@ -3,7 +3,7 @@ import { blogPosts } from '../data/blogData';
 
 function Blog() {
   return (
-    <section className="bg-primaryBg mt-20 flex justify-center px-6 py-10">
+    <section className="bg-primaryBg flex justify-center px-6">
       <div className="flex w-full max-w-3xl flex-col items-center justify-center space-y-12">
         {/* Header */}
         <div className="space-y-3 text-center">
@@ -31,7 +31,7 @@ function Blog() {
               />
 
               {/* Blog Info */}
-              <div className="flex flex-col items-center space-y-4 px-6 py-8 text-center">
+              <div className="flex flex-col items-center space-y-2 px-6 py-8 text-center">
                 <p className="text-sm text-gray-400">{post.date}</p>
 
                 <h2 className="text-headingTextColor text-2xl font-semibold md:text-3xl">
@@ -60,7 +60,7 @@ function Blog() {
                 {/* Read More Button */}
                 <Link
                   to={`/blog/${post.id}`}
-                  className="border-primaryHoverBg text-primaryHoverBg hover:bg-primaryHoverBg mt-4 inline-block rounded-md border px-5 py-2 font-medium transition-colors hover:text-white"
+                  className="border-tertiaryBg hover:bg-primaryHoverBg mt-4 inline-block rounded-md border px-5 py-2 font-medium transition-colors hover:text-white"
                 >
                   Read More
                 </Link>

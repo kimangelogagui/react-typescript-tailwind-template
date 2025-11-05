@@ -47,18 +47,18 @@ function BlogPost() {
         {/* Author */}
         <div className="flex flex-col items-center space-y-2 border-t border-gray-700 pt-8 text-center">
           <img
-            src="/author.png"
+            src="/profile.png"
             alt="Author Avatar"
             className="h-14 w-14 rounded-full object-cover shadow-md"
           />
-          <p className="text-headingTextColor font-semibold">Kim Angelo</p>
+          <p className="text-headingTextColor font-semibold">Your Name</p>
           <p className="text-bodyTextColor text-sm">Web Developer & Designer</p>
         </div>
 
         {/* Back to Blog */}
         <Link
           to="/blog"
-          className="text-primaryHoverBg mt-8 font-medium hover:underline"
+          className="text-tertiaryBg mt-8 font-medium hover:underline"
         >
           ← Back to Blog
         </Link>

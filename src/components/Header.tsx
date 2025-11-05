@@ -128,6 +128,17 @@ function Header() {
             Contact
           </NavLink>
           <NavLink
+            to="/projects"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? `text-bodyTextColor ${activeLink}`
+                : 'text-bodyTextColor hover:text-secondaryHoverBg text-lg transition-colors'
+            }
+          >
+            Projects
+          </NavLink>
+          <NavLink
             to="/blog"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>

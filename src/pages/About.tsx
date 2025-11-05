@@ -1,13 +1,13 @@
 function About() {
   return (
-    <section className="bg-primaryBg mt-20 justify-center px-6 py-10">
+    <section className="bg-primaryBg justify-center px-6 py-10">
       <div className="flex w-full max-w-5xl flex-col items-center justify-center gap-12 md:flex-row md:gap-20">
         {/* Image Section */}
         <div className="flex w-full justify-center md:w-1/2">
           <img
-            src="/about.png"
+            src="/images/about/1.jpg"
             alt="About Illustration"
-            className="w-48 drop-shadow-lg md:w-72"
+            className="w-48 drop-shadow-lg md:w-full rounded-2xl"
           />
         </div>
 

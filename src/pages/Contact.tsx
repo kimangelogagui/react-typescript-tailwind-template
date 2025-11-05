@@ -23,14 +23,14 @@ function Contact() {
   };
 
   return (
-    <section className="bg-secondaryBg flex min-h-screen items-center justify-center px-6 py-20">
-      <div className="w-full max-w-2xl rounded-2xl bg-black p-8 shadow-md">
+    <section className="items-center justify-center px-6">
+      <div className="w-full max-w-2xl rounded-2xl bg-secondaryBg p-8 shadow-md">
         <h1 className="font-playfair text-headingTextColor mb-6 text-center text-3xl font-bold">
           Contact Me
         </h1>
         <form
           onSubmit={handleSubmit}
-          className="text-specialTextColor font-poppins space-y-4"
+          className="text-bodyTextColor font-poppins space-y-4"
         >
           <input
             type="text"
@@ -61,7 +61,7 @@ function Contact() {
           />
           <button
             type="submit"
-            className="bg-primaryBg hover:bg-secondaryBg w-full rounded-lg py-3 font-medium text-white transition duration-300"
+            className="bg-tertiaryBg hover:bg-primaryBg w-full rounded-lg py-3 font-medium text-black transition duration-300"
           >
             Send Message
           </button>

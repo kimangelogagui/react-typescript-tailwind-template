@@ -33,11 +33,11 @@ Some of the biggest advantages include:
 
 Start with \`create-react-app --template typescript\` or Vite for a cleaner setup, and structure your project using clear type definitions and interfaces.`,
     date: 'October 20, 2025',
-    image: '/blog1.png',
+    image: '/images/blog/1.jpg',
     author: {
-      name: 'Kim Angelo',
+      name: 'Your Name',
       role: 'Web Developer & Designer',
-      avatar: '/author.png',
+      avatar: '/profile.png',
     },
   },
   {
@@ -55,11 +55,11 @@ Here are some tips to keep your design efficient and fast:
 
 Performance is design. A lightweight site isn't just fast — it feels smooth and responsive.`,
     date: 'October 12, 2025',
-    image: '/blog2.png',
+    image: '/images/blog/2.jpg',
     author: {
-      name: 'Kim Angelo',
+      name: 'Your Name',
       role: 'Frontend Developer',
-      avatar: '/author.png',
+      avatar: '/profile.png',
     },
   },
   {
@@ -79,11 +79,11 @@ The key habits include:
 
 Remember: clean code is easy to read, easy to test, and easy to change — the true mark of a professional developer.`,
     date: 'October 2, 2025',
-    image: '/blog3.png',
+    image: '/images/blog/3.jpg',
     author: {
-      name: 'Kim Angelo',
+      name: 'Your Name',
       role: 'Full Stack Engineer',
-      avatar: '/author.png',
+      avatar: '/profile.png',
     },
   },
 ];

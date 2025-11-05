@@ -221,5 +221,5 @@ Licensed under the **MIT License** — free to use and modify.
 
 **Kim Angelo Gagui**  
 [Portfolio] (https://kimangelogagui-portfolio.vercel.app/)  
-[GitHub](https://github.com/kimangelogagui)  
+[GitHub] (https://github.com/kimangelogagui)  
 [Email] (gaguikimangelo@gmail.com)

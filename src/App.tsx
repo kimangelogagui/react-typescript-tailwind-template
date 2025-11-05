@@ -9,13 +9,15 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import NotFound from './pages/NotFound';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="bg-primaryBg text-bodyTextColor flex min-h-screen flex-col">
       <Header />
+      <ScrollToTop />
 
-      <main className="flex grow items-center justify-center">
+      <main className="flex grow flex-col items-center py-10 sm:py-16">
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
