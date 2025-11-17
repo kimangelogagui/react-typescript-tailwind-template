@@ -11,9 +11,9 @@ import {
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const linkClass = 'hover:text-primaryHoverBg transition-colors duration-200';
+  const linkClass = 'hover:text-headingTextColor transition-colors duration-200';
   const activeLink =
-    'text-primaryHoverBg font-semibold border-b-2 border-secondaryHoverBg pb-1';
+    'text-secondaryHoverBG font-semibold border-b-2 border-secondaryHoverBg pb-1';
 
   return (
     <header className="bg-secondaryBg text-headingTextColor sticky top-0 z-50 shadow-md">
